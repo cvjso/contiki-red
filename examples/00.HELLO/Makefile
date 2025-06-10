@@ -1,0 +1,8 @@
+APPS+=powertrace
+CFLAGS += -DDEBUG
+
+CONTIKI = ../..
+CONTIKI_WITH_RIME = 1
+# QUEUEBUF_CONF_NUM = 16
+#CONTIKI_WITH_IPV6 = 1
+include $(CONTIKI)/Makefile.include

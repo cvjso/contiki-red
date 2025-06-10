@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cpu/cc26xx-cc13xx/lib/cc13xxware" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cpu/cc26xx-cc13xx/lib/cc26xxware" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/cc2538-bsl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/sensniff" vcs="Git" />
+  </component>
+</project>

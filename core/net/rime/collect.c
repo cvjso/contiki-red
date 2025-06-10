@@ -57,6 +57,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stddef.h>
+#include <stdlib.h> // Para rand()
 
 static const struct packetbuf_attrlist attributes[] =
   {
@@ -920,6 +921,68 @@ add_packet_to_recent_packets(struct collect_conn *tc)
   }
 }
 /*---------------------------------------------------------------------------*/
+/*-----------DISPLAY FLOAT----------------*/
+typedef enum
+{
+    DEC1 = 10,
+    DEC2 = 100,
+    DEC3 = 1000,
+    DEC4 = 10000,
+    DEC5 = 100000,
+    DEC6 = 1000000,
+
+} tPrecision ;
+
+void putFloat(float f, tPrecision p)
+{
+  long i = (long)f;
+  printf("%ld.", i); // Imprime a parte inteira
+
+  f = (f - i) * p;
+  if (f < 0) f = -f; // Garante que o valor decimal seja positivo
+
+  i = (long)(f + 0.5); // Arredonda corretamente
+
+  printf("%ld\n", i); // Imprime a parte decimal
+}
+
+/*-----------RED----------------*/
+// #define MIN_THRESH 3
+// #define MAX_THRESH 8
+#define MIN_THRESH 3
+#define MAX_THRESH 7
+#define MAX_PROBABILITY 0.02
+// #define WEIGHT 0.002
+#define WEIGHT 0.4
+
+static float avg_queue_size = 0;
+static unsigned long previous_time = 0;
+static unsigned long number_packets = 0;
+
+/* Atualiza a média da fila */
+static void update_avg_queue_size(int current_size) {
+    unsigned long current_time = clock_seconds();
+    unsigned long elapsed_time = current_time - previous_time;
+    previous_time = current_time;
+    
+    // avg_queue_size = (1 - WEIGHT) * (elapsed_time / avg_queue_size);
+
+    avg_queue_size = (1 - WEIGHT) * avg_queue_size + WEIGHT * current_size;
+}
+
+/* Decide se um pacote deve ser descartado */
+static int red_aqm(int queue_size) {
+    update_avg_queue_size(queue_size);
+    if (avg_queue_size < MIN_THRESH) {
+        return 0; // Não descartar
+    } else if (avg_queue_size >= MAX_THRESH) {
+        return 1; // Descartar com certeza
+    } else {
+        int drop_prob = MAX_PROBABILITY * (avg_queue_size - MIN_THRESH) / (MAX_THRESH - MIN_THRESH);
+        return ((float)rand() / RAND_MAX) < drop_prob;
+    }
+}
+/*---------------------------------------------------------------------------*/
 static void
 node_packet_received(struct unicast_conn *c, const linkaddr_t *from)
 {
@@ -1068,14 +1131,38 @@ node_packet_received(struct unicast_conn *c, const linkaddr_t *from)
                                        FORWARD_PACKET_LIFETIME_BASE *
                                        packetbuf_attr(PACKETBUF_ATTR_MAX_REXMIT),
                                        tc)) {
+        int queue_size = QUEUEBUF_CONF_NUM - queuebuf_numfree(); // Obtém número de pacotes enfileirados
+        if (tc->is_gateway){
+          if (red_aqm(queue_size)) {
+            // printf("[RED] Pacote descartado! Media da fila: ");
+            printf("[RED] droped, avg_queue: ");
+            putFloat(avg_queue_size, DEC3);
+            printf("[RED] droped, queue_size: %d\n", queue_size);
+            send_ack(tc, &ack_to,
+              ackflags | ACK_FLAGS_DROPPED | ACK_FLAGS_CONGESTED);
+            return;
+            stats.qdrop++;
+          }
+        }
+  
+        if (tc->is_gateway){
+          printf("[RED] accepted, avg_queue: ");
+          putFloat(avg_queue_size, DEC3);
+          printf("[RED] accepted, queue_size: %d\n", queue_size);
+          number_packets++;
+          printf("[RED] number_packets: %lu\n", number_packets);
+        }
+  
         add_packet_to_recent_packets(tc);
         send_ack(tc, &ack_to, ackflags);
         send_queued_packet(tc);
       } else {
+        int queue_size = QUEUEBUF_CONF_NUM - queuebuf_numfree(); // Obtém número de pacotes enfileirados
         send_ack(tc, &ack_to,
                  ackflags | ACK_FLAGS_DROPPED | ACK_FLAGS_CONGESTED);
-        PRINTF("%d.%d: packet dropped: no queue buffer available\n",
+        printf("%d.%d: packet dropped: no queue buffer available\n",
                   linkaddr_node_addr.u8[0], linkaddr_node_addr.u8[1]);
+        printf("[MEMORY][DROP] queue_size: %d\n", queue_size);
         stats.qdrop++;
       }
     } else if(packetbuf_attr(PACKETBUF_ATTR_TTL) <= 1) {
@@ -1099,6 +1186,8 @@ node_packet_received(struct unicast_conn *c, const linkaddr_t *from)
     handle_ack(tc);
     stats.ackrecv++;
   }
+  // int queue_size = QUEUEBUF_CONF_NUM - queuebuf_numfree(); // Obtém número de pacotes enfileirados
+  // printf("[RED] queue_size: %d\n", queue_size);
   return;
 }
 /*---------------------------------------------------------------------------*/
@@ -1389,11 +1478,12 @@ collect_close(struct collect_conn *tc)
 }
 /*---------------------------------------------------------------------------*/
 void
-collect_set_sink(struct collect_conn *tc, int should_be_sink)
+collect_set_sink(struct collect_conn *tc, int should_be_sink, int should_be_gateway)
 {
   if(should_be_sink) {
     tc->is_router = 1;
     tc->rtmetric = RTMETRIC_SINK;
+    tc->is_gateway = should_be_gateway; // Configura se o nó é gateway
     PRINTF("collect_set_sink: tc->rtmetric %d\n", tc->rtmetric);
     bump_advertisement(tc);
 
@@ -1406,6 +1496,7 @@ collect_set_sink(struct collect_conn *tc, int should_be_sink)
     ctimer_stop(&tc->retransmission_timer);
   } else {
     tc->rtmetric = RTMETRIC_MAX;
+    tc->is_gateway = should_be_gateway; // Não é gateway
   }
 #if COLLECT_ANNOUNCEMENTS
   announcement_set_value(&tc->announcement, tc->rtmetric);
@@ -1422,9 +1513,10 @@ collect_set_sink(struct collect_conn *tc, int should_be_sink)
 int
 collect_send(struct collect_conn *tc, int rexmits)
 {
+  // printf("[RED][START] Buffers ocupados: %d\n", QUEUEBUF_CONF_NUM - queuebuf_numfree());
   struct collect_neighbor *n;
   int ret;
-  
+
   packetbuf_set_attr(PACKETBUF_ATTR_EPACKET_ID, tc->eseqno);
 
   /* Increase the sequence number for the packet we send out. We
@@ -1471,7 +1563,24 @@ collect_send(struct collect_conn *tc, int rexmits)
                                      FORWARD_PACKET_LIFETIME_BASE *
                                      packetbuf_attr(PACKETBUF_ATTR_MAX_REXMIT),
                                      tc)) {
+      // int queue_size = QUEUEBUF_CONF_NUM - queuebuf_numfree(); // Obtém número de pacotes enfileirados
+      // // printf("[RED] Pacotes enfileirados %d\n", queue_size);
+      // if (tc->is_gateway){
+      //   if (red_aqm(queue_size)) {
+      //     // printf("[RED] Pacote descartado! Media da fila: ");
+      //     printf("[RED] droped, avg_queue: ");
+      //     putFloat(avg_queue_size, DEC3);
+      //     printf("[RED] droped, queue_size: %d\n", queue_size);
+      //     return 0; // Descartar pacote
+      //   }
+      // }
       send_queued_packet(tc);
+      // printf("id de envio %d\n", linkaddr_node_addr.u8[0]);
+      // if (tc->is_gateway){
+      //   printf("[RED] accepted, avg_queue: ");
+      //   putFloat(avg_queue_size, DEC3);
+      //   printf("[RED] accepted, queue_size: %d\n", queue_size);
+      // }
       ret = 1;
     } else {
       PRINTF("%d.%d: drop originated packet: no queuebuf\n",
@@ -1517,6 +1626,7 @@ collect_send(struct collect_conn *tc, int rexmits)
                }*/
     }
   }
+  // printf("[RED][END] Buffers ocupados: %d\n", QUEUEBUF_CONF_NUM - queuebuf_numfree());
   return ret;
 }
 /*---------------------------------------------------------------------------*/

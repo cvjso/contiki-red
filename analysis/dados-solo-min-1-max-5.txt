@@ -1,0 +1,135 @@
+00:00.502	ID:5	Rime started with address 5.0
+00:00.511	ID:5	MAC 05:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 5.
+00:00.520	ID:5	nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:00.523	ID:5	Starting 'Hello world process 2'
+00:00.526	ID:5	I am gateway
+00:00.648	ID:1	Rime started with address 1.0
+00:00.657	ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 1.
+00:00.666	ID:1	nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:00.669	ID:1	Starting 'Hello world process 2'
+00:01.165	ID:6	Rime started with address 6.0
+00:01.174	ID:6	MAC 06:00:00:00:00:00:00:00 Contiki-3.x-3345-g32b5b17f6 started. Node id is set to 6.
+00:01.184	ID:6	nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:01.186	ID:6	Starting 'Hello world process 2'
+00:01.189	ID:6	I am sink
+02:01.435	ID:5	#L 6 1
+02:01.751	ID:1	#L 5 1
+02:02.274	ID:5	[RED] accepted, avg_queue: 0.400
+02:02.276	ID:5	[RED] accepted, queue_size: 1
+02:02.278	ID:5	[RED] number_packets: 1
+02:02.524	ID:5	[RED] droped, avg_queue: 1.40
+02:02.526	ID:5	[RED] droped, queue_size: 2
+02:09.650	ID:5	[RED] accepted, avg_queue: 1.24
+02:09.652	ID:5	[RED] accepted, queue_size: 1
+02:09.654	ID:5	[RED] number_packets: 2
+02:09.900	ID:5	[RED] accepted, avg_queue: 1.414
+02:09.902	ID:5	[RED] accepted, queue_size: 2
+02:09.904	ID:5	[RED] number_packets: 3
+02:10.148	ID:5	[RED] droped, avg_queue: 2.49
+02:10.150	ID:5	[RED] droped, queue_size: 3
+02:16.777	ID:5	[RED] droped, avg_queue: 1.629
+02:16.779	ID:5	[RED] droped, queue_size: 1
+02:21.527	ID:5	[RED] accepted, avg_queue: 1.778
+02:21.529	ID:5	[RED] accepted, queue_size: 2
+02:21.531	ID:5	[RED] number_packets: 4
+02:21.777	ID:5	[RED] droped, avg_queue: 2.267
+02:21.779	ID:5	[RED] droped, queue_size: 3
+02:26.275	ID:5	[RED] droped, avg_queue: 1.760
+02:26.277	ID:5	[RED] droped, queue_size: 1
+02:32.651	ID:5	[RED] accepted, avg_queue: 1.856
+02:32.653	ID:5	[RED] accepted, queue_size: 2
+02:32.655	ID:5	[RED] number_packets: 5
+02:36.901	ID:5	[RED] droped, avg_queue: 1.514
+02:36.903	ID:5	[RED] droped, queue_size: 1
+02:44.527	ID:5	[RED] droped, avg_queue: 1.708
+02:44.529	ID:5	[RED] droped, queue_size: 2
+02:49.776	ID:5	[RED] accepted, avg_queue: 2.225
+02:49.778	ID:5	[RED] accepted, queue_size: 3
+02:49.780	ID:5	[RED] number_packets: 6
+02:53.525	ID:5	[RED] droped, avg_queue: 1.735
+02:53.527	ID:5	[RED] droped, queue_size: 1
+03:00.525	ID:5	[RED] accepted, avg_queue: 1.841
+03:00.527	ID:5	[RED] accepted, queue_size: 2
+03:00.529	ID:5	[RED] number_packets: 7
+03:03.527	ID:5	[RED] droped, avg_queue: 1.505
+03:03.529	ID:5	[RED] droped, queue_size: 1
+03:11.024	ID:5	[RED] accepted, avg_queue: 1.703
+03:11.026	ID:5	[RED] accepted, queue_size: 2
+03:11.028	ID:5	[RED] number_packets: 8
+03:13.900	ID:5	[RED] droped, avg_queue: 1.422
+03:13.903	ID:5	[RED] droped, queue_size: 1
+03:21.149	ID:5	[RED] accepted, avg_queue: 1.653
+03:21.151	ID:5	[RED] accepted, queue_size: 2
+03:21.153	ID:5	[RED] number_packets: 9
+03:29.526	ID:5	[RED] accepted, avg_queue: 1.392
+03:29.528	ID:5	[RED] accepted, queue_size: 1
+03:29.530	ID:5	[RED] number_packets: 10
+03:29.775	ID:5	[RED] droped, avg_queue: 1.635
+03:29.777	ID:5	[RED] droped, queue_size: 2
+03:37.401	ID:5	[RED] accepted, avg_queue: 1.381
+03:37.403	ID:5	[RED] accepted, queue_size: 1
+03:37.406	ID:5	[RED] number_packets: 11
+03:37.649	ID:5	[RED] accepted, avg_queue: 1.629
+03:37.651	ID:5	[RED] accepted, queue_size: 2
+03:37.653	ID:5	[RED] number_packets: 12
+03:37.901	ID:5	[RED] accepted, avg_queue: 2.177
+03:37.903	ID:5	[RED] accepted, queue_size: 3
+03:37.905	ID:5	[RED] number_packets: 13
+03:41.526	ID:5	[RED] droped, avg_queue: 1.706
+03:41.528	ID:5	[RED] droped, queue_size: 1
+03:45.900	ID:5	[RED] droped, avg_queue: 1.824
+03:45.902	ID:5	[RED] droped, queue_size: 2
+03:50.775	ID:5	[RED] droped, avg_queue: 2.294
+03:50.777	ID:5	[RED] droped, queue_size: 3
+03:55.526	ID:5	[RED] droped, avg_queue: 2.977
+03:55.528	ID:5	[RED] droped, queue_size: 4
+04:00.400	ID:5	[RED] droped, avg_queue: 3.786
+04:00.403	ID:5	[RED] droped, queue_size: 5
+04:04.900	ID:5	[RED] droped, avg_queue: 4.672
+04:04.902	ID:5	[RED] droped, queue_size: 6
+04:09.150	ID:5	[RED] droped, avg_queue: 5.603
+04:09.152	ID:5	[RED] droped, queue_size: 7
+04:24.648	ID:5	[RED] droped, avg_queue: 6.562
+04:24.650	ID:5	[RED] droped, queue_size: 8
+04:34.650	ID:5	[RED] droped, avg_queue: 7.537
+04:34.652	ID:5	[RED] droped, queue_size: 9
+04:34.772	ID:5	5.0: packet dropped: no queue buffer available
+04:34.775	ID:5	[MEMORY][DROP] queue_size: 10
+04:39.774	ID:5	5.0: packet dropped: no queue buffer available
+04:39.776	ID:5	[MEMORY][DROP] queue_size: 9
+04:52.647	ID:5	5.0: packet dropped: no queue buffer available
+04:52.649	ID:5	[MEMORY][DROP] queue_size: 9
+05:00.397	ID:5	5.0: packet dropped: no queue buffer available
+05:00.399	ID:5	[MEMORY][DROP] queue_size: 9
+05:08.148	ID:5	5.0: packet dropped: no queue buffer available
+05:08.150	ID:5	[MEMORY][DROP] queue_size: 9
+05:19.647	ID:5	5.0: packet dropped: no queue buffer available
+05:19.649	ID:5	[MEMORY][DROP] queue_size: 9
+05:28.897	ID:5	5.0: packet dropped: no queue buffer available
+05:28.899	ID:5	[MEMORY][DROP] queue_size: 9
+05:37.772	ID:5	5.0: packet dropped: no queue buffer available
+05:37.774	ID:5	[MEMORY][DROP] queue_size: 9
+05:44.150	ID:5	[RED] droped, avg_queue: 8.122
+05:44.152	ID:5	[RED] droped, queue_size: 9
+05:48.524	ID:5	[RED] droped, avg_queue: 8.473
+05:48.526	ID:5	[RED] droped, queue_size: 9
+05:53.026	ID:5	[RED] droped, avg_queue: 8.684
+05:53.028	ID:5	[RED] droped, queue_size: 9
+06:00.023	ID:5	[RED] droped, avg_queue: 8.810
+06:00.025	ID:5	[RED] droped, queue_size: 9
+06:04.526	ID:5	[RED] droped, avg_queue: 8.886
+06:04.528	ID:5	[RED] droped, queue_size: 9
+06:09.024	ID:5	[RED] droped, avg_queue: 8.932
+06:09.026	ID:5	[RED] droped, queue_size: 9
+06:18.276	ID:5	[RED] droped, avg_queue: 8.959
+06:18.278	ID:5	[RED] droped, queue_size: 9
+06:24.149	ID:5	5.0: packet dropped: no queue buffer available
+06:24.151	ID:5	[MEMORY][DROP] queue_size: 9
+06:32.273	ID:5	[RED] droped, avg_queue: 8.975
+06:32.275	ID:5	[RED] droped, queue_size: 9
+06:39.525	ID:5	[RED] droped, avg_queue: 8.985
+06:39.527	ID:5	[RED] droped, queue_size: 9
+06:47.647	ID:5	5.0: packet dropped: no queue buffer available
+06:47.649	ID:5	[MEMORY][DROP] queue_size: 9
+06:53.524	ID:5	5.0: packet dropped: no queue buffer available
+06:53.526	ID:5	[MEMORY][DROP] queue_size: 9

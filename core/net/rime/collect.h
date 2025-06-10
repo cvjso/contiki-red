@@ -141,6 +141,7 @@ struct collect_conn {
   uint8_t is_router;
 
   clock_time_t send_time;
+  uint8_t is_gateway; // Novo campo para indicar se o nó é um gateway
 };
 
 enum {
@@ -155,7 +156,7 @@ void collect_close(struct collect_conn *c);
 
 int collect_send(struct collect_conn *c, int rexmits);
 
-void collect_set_sink(struct collect_conn *c, int should_be_sink);
+void collect_set_sink(struct collect_conn *c, int should_be_sink, int should_be_gateway);
 
 int collect_depth(struct collect_conn *c);
 const linkaddr_t *collect_parent(struct collect_conn *c);

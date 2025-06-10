@@ -71,10 +71,13 @@
 */
 
 #include "net/ip/uip.h"
+#include "net/queuebuf.h"
 #include "net/ip/uipopt.h"
 #include "net/ipv4/uip_arp.h"
 #include "net/ip/uip_arch.h"
-
+#include <stdlib.h>
+#include <stdio.h>
+#include "sys/log.h"
 #include "net/ipv4/uip-neighbor.h"
 
 #include <string.h>
@@ -82,6 +85,35 @@
 
 /*---------------------------------------------------------------------------*/
 /* Variable definitions. */
+//#define LOG_MODULE "RED_AQM"
+//#define LOG_LEVEL LOG_LEVEL_INFO
+//
+///* Parâmetros do RED */
+//#define MIN_THRESH 3      // Limiar mínimo para início do descarte
+//#define MAX_THRESH 8      // Limiar máximo para descarte certo
+//#define MAX_PROBABILITY 0.5  // Probabilidade máxima de descarte
+//#define WEIGHT 0.002  // Peso para média exponencial
+//
+//static float avg_queue_size = 0;
+//
+///* Função para calcular a média do tamanho da fila */
+//static void update_avg_queue_size(int current_size) {
+//    avg_queue_size = (1 - WEIGHT) * avg_queue_size + WEIGHT * current_size;
+//}
+//
+///* Função para determinar se um pacote deve ser descartado */
+//static int red_drop_packet(int queue_size) {
+//    update_avg_queue_size(queue_size);
+//
+//    if (avg_queue_size < MIN_THRESH) {
+//        return 0; // Nenhum descarte
+//    } else if (avg_queue_size >= MAX_THRESH) {
+//        return 1; // Descartar com certeza
+//    } else {
+//        float drop_prob = MAX_PROBABILITY * (avg_queue_size - MIN_THRESH) / (MAX_THRESH - MIN_THRESH);
+//        return ((float)rand() / RAND_MAX) < drop_prob;
+//    }
+//}
 
 
 /* The IP address of this host. If it is defined to be fixed (by
@@ -1222,6 +1254,12 @@ uip_process(uint8_t flag)
  tcp_input:
   UIP_STAT(++uip_stat.tcp.recv);
 
+//  int queue_size = queuebuf_numfree(); // Obtém número de pacotes enfileirados
+//  if (red_drop_packet(queue_size)) {
+//    printf("[RED] Pacote descartado! Média da fila: %.2f\n", avg_queue_size);
+//    return; // Descartar pacote
+//  }
+//  printf("[RED] Pacote aceito! Média da fila: %.2f\n", avg_queue_size);
   /* Start of TCP input header processing code. */
 
   if(uip_tcpchksum() != 0xffff) {   /* Compute and check the TCP
