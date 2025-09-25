@@ -955,6 +955,9 @@ void putFloat(float f, tPrecision p)
 // #define WEIGHT 0.002
 #define WEIGHT 0.4
 
+// TODO: Adicionar mudança de duty cycle, utilizar contikimac_set_channel_check_interval para alterar o duty cycle
+// Duty cycle padrão 8hz = 0,1% (NETSTACK_RDC_CHANNEL_CHECK_RATE)
+
 static float avg_queue_size = 0;
 static unsigned long previous_time = 0;
 static unsigned long number_packets = 0;

@@ -17,3 +17,17 @@ and so on.
 For more information, see the Contiki website:
 
 [http://contiki-os.org](http://contiki-os.org)
+
+
+Install dependencies
+
+- sudo apt-get install git build-essential doxygen curl wireshark  binutils-msp430 gcc-msp430 msp430-libc msp430mcu mspdebug gcc-arm-none-eabi openjdk-8-jdk openjdk-8-jre ant libncurses5-dev avr-libc gcc-avr
+
+Run contiki
+
+- cd tools/cooja
+- git submodule update --init
+- sudo ant run
+
+If problem:
+https://stackoverflow.com/questions/32814364/running-cooja-in-contiki-with-cmd-ant-run

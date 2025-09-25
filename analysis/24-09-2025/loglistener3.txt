@@ -1,0 +1,825 @@
+00:00.450	ID:2	Rime started with address 2.0
+00:00.459	ID:2	MAC 02:00:00:00:00:00:00:00 Contiki-9c88feed4 started. Node id is set to 2.
+00:00.468	ID:2	nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:00.471	ID:2	Starting 'Hello world process 2'
+00:00.645	ID:3	Rime started with address 3.0
+00:00.654	ID:3	MAC 03:00:00:00:00:00:00:00 Contiki-9c88feed4 started. Node id is set to 3.
+00:00.663	ID:3	nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:00.666	ID:3	Starting 'Hello world process 2'
+00:00.692	ID:6	Rime started with address 6.0
+00:00.701	ID:6	MAC 06:00:00:00:00:00:00:00 Contiki-9c88feed4 started. Node id is set to 6.
+00:00.710	ID:6	nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:00.712	ID:6	Starting 'Hello world process 2'
+00:00.715	ID:6	I am sink
+00:00.970	ID:4	Rime started with address 4.0
+00:00.979	ID:4	MAC 04:00:00:00:00:00:00:00 Contiki-9c88feed4 started. Node id is set to 4.
+00:00.988	ID:4	nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:00.990	ID:4	Starting 'Hello world process 2'
+00:01.034	ID:5	Rime started with address 5.0
+00:01.043	ID:5	MAC 05:00:00:00:00:00:00:00 Contiki-9c88feed4 started. Node id is set to 5.
+00:01.052	ID:5	nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:01.054	ID:5	Starting 'Hello world process 2'
+00:01.057	ID:5	I am gateway
+00:01.230	ID:1	Rime started with address 1.0
+00:01.239	ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-9c88feed4 started. Node id is set to 1.
+00:01.248	ID:1	nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:01.250	ID:1	Starting 'Hello world process 2'
+02:00.631	ID:2	#L 5 1
+02:01.131	ID:5	#L 6 1
+02:01.181	ID:5	[RED] accepted, avg_queue: 0.400
+02:01.184	ID:5	[RED] accepted, queue_size: 1
+02:01.185	ID:5	[RED] number_packets: 1
+02:01.201	ID:3	#L 5 1
+02:01.430	ID:5	[RED] accepted, avg_queue: 1.40
+02:01.433	ID:5	[RED] accepted, queue_size: 2
+02:01.434	ID:5	[RED] number_packets: 2
+02:01.442	ID:1	#L 6 1
+02:01.721	ID:4	#L 5 1
+02:02.306	ID:5	[RED] accepted, avg_queue: 1.24
+02:02.308	ID:5	[RED] accepted, queue_size: 1
+02:02.310	ID:5	[RED] number_packets: 3
+02:03.682	ID:5	[RED] accepted, avg_queue: 1.14
+02:03.684	ID:5	[RED] accepted, queue_size: 1
+02:03.686	ID:5	[RED] number_packets: 4
+02:06.055	ID:5	[RED] accepted, avg_queue: 1.9
+02:06.057	ID:5	[RED] accepted, queue_size: 1
+02:06.059	ID:5	[RED] number_packets: 5
+02:07.181	ID:5	[RED] accepted, avg_queue: 1.5
+02:07.183	ID:5	[RED] accepted, queue_size: 1
+02:07.185	ID:5	[RED] number_packets: 6
+02:07.432	ID:5	[RED] accepted, avg_queue: 1.403
+02:07.434	ID:5	[RED] accepted, queue_size: 2
+02:07.436	ID:5	[RED] number_packets: 7
+02:07.555	ID:5	[RED] accepted, avg_queue: 2.42
+02:07.557	ID:5	[RED] accepted, queue_size: 3
+02:07.559	ID:5	[RED] number_packets: 8
+02:07.679	ID:5	[RED] accepted, avg_queue: 2.825
+02:07.681	ID:5	[RED] accepted, queue_size: 4
+02:07.683	ID:5	[RED] number_packets: 9
+02:10.055	ID:5	[RED] accepted, avg_queue: 2.95
+02:10.057	ID:5	[RED] accepted, queue_size: 1
+02:10.060	ID:5	[RED] number_packets: 10
+02:10.180	ID:5	[RED] accepted, avg_queue: 2.857
+02:10.182	ID:5	[RED] accepted, queue_size: 4
+02:10.185	ID:5	[RED] number_packets: 11
+02:10.808	ID:5	[RED] droped, avg_queue: 3.314
+02:10.810	ID:5	[RED] droped, queue_size: 4
+02:12.183	ID:5	[RED] droped, avg_queue: 3.989
+02:12.185	ID:5	[RED] droped, queue_size: 5
+02:16.305	ID:5	[RED] accepted, avg_queue: 2.793
+02:16.307	ID:5	[RED] accepted, queue_size: 1
+02:16.309	ID:5	[RED] number_packets: 12
+02:17.179	ID:5	[RED] accepted, avg_queue: 2.76
+02:17.181	ID:5	[RED] accepted, queue_size: 1
+02:17.184	ID:5	[RED] number_packets: 13
+02:17.430	ID:5	[RED] accepted, avg_queue: 2.46
+02:17.432	ID:5	[RED] accepted, queue_size: 2
+02:17.435	ID:5	[RED] number_packets: 14
+02:17.681	ID:5	[RED] accepted, avg_queue: 2.427
+02:17.683	ID:5	[RED] accepted, queue_size: 3
+02:17.685	ID:5	[RED] number_packets: 15
+02:17.932	ID:5	[RED] droped, avg_queue: 3.56
+02:17.934	ID:5	[RED] droped, queue_size: 4
+02:20.306	ID:5	[RED] accepted, avg_queue: 2.234
+02:20.309	ID:5	[RED] accepted, queue_size: 1
+02:20.311	ID:5	[RED] number_packets: 16
+02:20.431	ID:5	[RED] accepted, avg_queue: 2.140
+02:20.433	ID:5	[RED] accepted, queue_size: 2
+02:20.436	ID:5	[RED] number_packets: 17
+02:20.555	ID:5	[RED] accepted, avg_queue: 2.484
+02:20.557	ID:5	[RED] accepted, queue_size: 3
+02:20.559	ID:5	[RED] number_packets: 18
+02:22.307	ID:5	[RED] accepted, avg_queue: 1.891
+02:22.309	ID:5	[RED] accepted, queue_size: 1
+02:22.311	ID:5	[RED] number_packets: 19
+02:22.556	ID:5	[RED] accepted, avg_queue: 1.934
+02:22.558	ID:5	[RED] accepted, queue_size: 2
+02:22.560	ID:5	[RED] number_packets: 20
+02:22.680	ID:5	[RED] accepted, avg_queue: 2.361
+02:22.682	ID:5	[RED] accepted, queue_size: 3
+02:22.684	ID:5	[RED] number_packets: 21
+02:23.181	ID:5	[RED] accepted, avg_queue: 2.216
+02:23.183	ID:5	[RED] accepted, queue_size: 2
+02:23.185	ID:5	[RED] number_packets: 22
+02:25.057	ID:5	[RED] accepted, avg_queue: 1.730
+02:25.059	ID:5	[RED] accepted, queue_size: 1
+02:25.061	ID:5	[RED] number_packets: 23
+02:25.180	ID:5	[RED] accepted, avg_queue: 1.838
+02:25.182	ID:5	[RED] accepted, queue_size: 2
+02:25.184	ID:5	[RED] number_packets: 24
+02:25.306	ID:5	[RED] accepted, avg_queue: 2.303
+02:25.308	ID:5	[RED] accepted, queue_size: 3
+02:25.311	ID:5	[RED] number_packets: 25
+02:26.432	ID:5	[RED] accepted, avg_queue: 1.782
+02:26.434	ID:5	[RED] accepted, queue_size: 1
+02:26.436	ID:5	[RED] number_packets: 26
+02:26.680	ID:5	[RED] accepted, avg_queue: 1.869
+02:26.682	ID:5	[RED] accepted, queue_size: 2
+02:26.684	ID:5	[RED] number_packets: 27
+02:27.180	ID:5	[RED] accepted, avg_queue: 1.521
+02:27.182	ID:5	[RED] accepted, queue_size: 1
+02:27.184	ID:5	[RED] number_packets: 28
+02:29.181	ID:5	[RED] accepted, avg_queue: 1.313
+02:29.183	ID:5	[RED] accepted, queue_size: 1
+02:29.185	ID:5	[RED] number_packets: 29
+02:29.430	ID:5	[RED] accepted, avg_queue: 1.588
+02:29.432	ID:5	[RED] accepted, queue_size: 2
+02:29.435	ID:5	[RED] number_packets: 30
+02:30.056	ID:5	[RED] accepted, avg_queue: 1.353
+02:30.058	ID:5	[RED] accepted, queue_size: 1
+02:30.060	ID:5	[RED] number_packets: 31
+02:30.181	ID:5	[RED] accepted, avg_queue: 1.612
+02:30.183	ID:5	[RED] accepted, queue_size: 2
+02:30.185	ID:5	[RED] number_packets: 32
+02:30.305	ID:5	[RED] accepted, avg_queue: 2.167
+02:30.307	ID:5	[RED] accepted, queue_size: 3
+02:30.309	ID:5	[RED] number_packets: 33
+02:30.432	ID:5	[RED] accepted, avg_queue: 2.900
+02:30.434	ID:5	[RED] accepted, queue_size: 4
+02:30.436	ID:5	[RED] number_packets: 34
+02:32.681	ID:5	[RED] accepted, avg_queue: 2.140
+02:32.683	ID:5	[RED] accepted, queue_size: 1
+02:32.686	ID:5	[RED] number_packets: 35
+02:34.055	ID:5	[RED] accepted, avg_queue: 2.884
+02:34.057	ID:5	[RED] accepted, queue_size: 4
+02:34.059	ID:5	[RED] number_packets: 36
+02:34.557	ID:5	[RED] accepted, avg_queue: 3.330
+02:34.559	ID:5	[RED] accepted, queue_size: 4
+02:34.561	ID:5	[RED] number_packets: 37
+02:34.683	ID:5	[RED] accepted, avg_queue: 3.998
+02:34.685	ID:5	[RED] accepted, queue_size: 5
+02:34.687	ID:5	[RED] number_packets: 38
+02:34.806	ID:5	[RED] accepted, avg_queue: 4.799
+02:34.808	ID:5	[RED] accepted, queue_size: 6
+02:34.811	ID:5	[RED] number_packets: 39
+02:34.932	ID:5	[RED] droped, avg_queue: 5.679
+02:34.934	ID:5	[RED] droped, queue_size: 7
+02:35.308	ID:5	[RED] accepted, avg_queue: 6.608
+02:35.310	ID:5	[RED] accepted, queue_size: 8
+02:35.313	ID:5	[RED] number_packets: 40
+02:37.000	ID:1	1.0: packet dropped: no queue buffer available
+02:37.003	ID:1	[MEMORY][DROP] queue_size: 13
+02:38.468	ID:3	#L 5 0
+02:38.469	ID:3	#L 1 1
+02:40.681	ID:5	[RED] accepted, avg_queue: 4.365
+02:40.683	ID:5	[RED] accepted, queue_size: 1
+02:40.685	ID:5	[RED] number_packets: 41
+02:40.933	ID:5	[RED] droped, avg_queue: 3.419
+02:40.935	ID:5	[RED] droped, queue_size: 2
+02:48.055	ID:5	[RED] accepted, avg_queue: 2.451
+02:48.057	ID:5	[RED] accepted, queue_size: 1
+02:48.059	ID:5	[RED] number_packets: 42
+02:53.126	ID:1	1.0: packet dropped: no queue buffer available
+02:53.128	ID:1	[MEMORY][DROP] queue_size: 14
+02:57.305	ID:5	[RED] accepted, avg_queue: 1.871
+02:57.307	ID:5	[RED] accepted, queue_size: 1
+02:57.309	ID:5	[RED] number_packets: 43
+02:57.553	ID:5	[RED] accepted, avg_queue: 1.922
+02:57.556	ID:5	[RED] accepted, queue_size: 2
+02:57.558	ID:5	[RED] number_packets: 44
+02:59.376	ID:1	1.0: packet dropped: no queue buffer available
+02:59.379	ID:1	[MEMORY][DROP] queue_size: 10
+03:03.681	ID:5	[RED] accepted, avg_queue: 1.553
+03:03.683	ID:5	[RED] accepted, queue_size: 1
+03:03.685	ID:5	[RED] number_packets: 45
+03:05.430	ID:5	[RED] accepted, avg_queue: 2.532
+03:05.433	ID:5	[RED] accepted, queue_size: 4
+03:05.435	ID:5	[RED] number_packets: 46
+03:06.929	ID:5	[RED] accepted, avg_queue: 1.919
+03:06.932	ID:5	[RED] accepted, queue_size: 1
+03:06.934	ID:5	[RED] number_packets: 47
+03:07.181	ID:5	[RED] accepted, avg_queue: 1.952
+03:07.183	ID:5	[RED] accepted, queue_size: 2
+03:07.185	ID:5	[RED] number_packets: 48
+03:07.305	ID:5	[RED] accepted, avg_queue: 2.371
+03:07.307	ID:5	[RED] accepted, queue_size: 3
+03:07.309	ID:5	[RED] number_packets: 49
+03:07.433	ID:5	[RED] accepted, avg_queue: 3.23
+03:07.435	ID:5	[RED] accepted, queue_size: 4
+03:07.437	ID:5	[RED] number_packets: 50
+03:07.556	ID:5	[RED] droped, avg_queue: 3.814
+03:07.558	ID:5	[RED] droped, queue_size: 5
+03:09.126	ID:1	1.0: packet dropped: no queue buffer available
+03:09.128	ID:1	[MEMORY][DROP] queue_size: 14
+03:10.715	ID:4	#L 5 0
+03:10.715	ID:4	#L 1 1
+03:25.430	ID:5	[RED] accepted, avg_queue: 2.688
+03:25.432	ID:5	[RED] accepted, queue_size: 1
+03:25.434	ID:5	[RED] number_packets: 51
+03:25.681	ID:5	[RED] accepted, avg_queue: 2.413
+03:25.683	ID:5	[RED] accepted, queue_size: 2
+03:25.685	ID:5	[RED] number_packets: 52
+03:32.876	ID:1	1.0: packet dropped: no queue buffer available
+03:32.878	ID:1	[MEMORY][DROP] queue_size: 10
+03:32.928	ID:5	[RED] accepted, avg_queue: 1.848
+03:32.931	ID:5	[RED] accepted, queue_size: 1
+03:32.933	ID:5	[RED] number_packets: 53
+03:33.876	ID:1	1.0: packet dropped: no queue buffer available
+03:33.878	ID:1	[MEMORY][DROP] queue_size: 10
+03:36.055	ID:5	[RED] accepted, avg_queue: 1.509
+03:36.057	ID:5	[RED] accepted, queue_size: 1
+03:36.060	ID:5	[RED] number_packets: 54
+03:36.430	ID:5	[RED] accepted, avg_queue: 1.705
+03:36.432	ID:5	[RED] accepted, queue_size: 2
+03:36.434	ID:5	[RED] number_packets: 55
+03:36.931	ID:5	[RED] accepted, avg_queue: 1.423
+03:36.933	ID:5	[RED] accepted, queue_size: 1
+03:36.936	ID:5	[RED] number_packets: 56
+03:37.182	ID:5	[RED] accepted, avg_queue: 1.654
+03:37.184	ID:5	[RED] accepted, queue_size: 2
+03:37.186	ID:5	[RED] number_packets: 57
+03:37.306	ID:5	[RED] accepted, avg_queue: 2.192
+03:37.308	ID:5	[RED] accepted, queue_size: 3
+03:37.310	ID:5	[RED] number_packets: 58
+03:37.682	ID:5	[RED] accepted, avg_queue: 2.515
+03:37.684	ID:5	[RED] accepted, queue_size: 3
+03:37.686	ID:5	[RED] number_packets: 59
+03:37.807	ID:5	[RED] accepted, avg_queue: 3.109
+03:37.810	ID:5	[RED] accepted, queue_size: 4
+03:37.812	ID:5	[RED] number_packets: 60
+03:41.375	ID:1	1.0: packet dropped: no queue buffer available
+03:41.377	ID:1	[MEMORY][DROP] queue_size: 10
+03:50.556	ID:5	[RED] accepted, avg_queue: 2.266
+03:50.559	ID:5	[RED] accepted, queue_size: 1
+03:50.561	ID:5	[RED] number_packets: 61
+03:50.804	ID:5	[RED] accepted, avg_queue: 2.159
+03:50.807	ID:5	[RED] accepted, queue_size: 2
+03:50.809	ID:5	[RED] number_packets: 62
+03:54.500	ID:1	1.0: packet dropped: no queue buffer available
+03:54.502	ID:1	[MEMORY][DROP] queue_size: 11
+03:57.931	ID:5	[RED] accepted, avg_queue: 1.696
+03:57.933	ID:5	[RED] accepted, queue_size: 1
+03:57.935	ID:5	[RED] number_packets: 63
+03:58.181	ID:5	[RED] accepted, avg_queue: 1.817
+03:58.183	ID:5	[RED] accepted, queue_size: 2
+03:58.186	ID:5	[RED] number_packets: 64
+03:58.305	ID:5	[RED] accepted, avg_queue: 2.290
+03:58.307	ID:5	[RED] accepted, queue_size: 3
+03:58.309	ID:5	[RED] number_packets: 65
+04:12.431	ID:5	[RED] accepted, avg_queue: 1.774
+04:12.433	ID:5	[RED] accepted, queue_size: 1
+04:12.435	ID:5	[RED] number_packets: 66
+04:12.679	ID:5	[RED] accepted, avg_queue: 1.865
+04:12.682	ID:5	[RED] accepted, queue_size: 2
+04:12.684	ID:5	[RED] number_packets: 67
+04:12.806	ID:5	[RED] accepted, avg_queue: 2.319
+04:12.808	ID:5	[RED] accepted, queue_size: 3
+04:12.810	ID:5	[RED] number_packets: 68
+04:12.932	ID:5	[RED] accepted, avg_queue: 2.991
+04:12.934	ID:5	[RED] accepted, queue_size: 4
+04:12.936	ID:5	[RED] number_packets: 69
+04:13.058	ID:5	[RED] accepted, avg_queue: 3.795
+04:13.060	ID:5	[RED] accepted, queue_size: 5
+04:13.062	ID:5	[RED] number_packets: 70
+04:13.183	ID:5	[RED] droped, avg_queue: 4.677
+04:13.185	ID:5	[RED] droped, queue_size: 6
+04:20.558	ID:5	[RED] accepted, avg_queue: 3.206
+04:20.560	ID:5	[RED] accepted, queue_size: 1
+04:20.562	ID:5	[RED] number_packets: 71
+04:28.681	ID:5	[RED] accepted, avg_queue: 2.324
+04:28.683	ID:5	[RED] accepted, queue_size: 1
+04:28.686	ID:5	[RED] number_packets: 72
+04:30.126	ID:1	1.0: packet dropped: no queue buffer available
+04:30.129	ID:1	[MEMORY][DROP] queue_size: 15
+04:33.057	ID:5	[RED] accepted, avg_queue: 1.794
+04:33.059	ID:5	[RED] accepted, queue_size: 1
+04:33.061	ID:5	[RED] number_packets: 73
+04:33.306	ID:5	[RED] accepted, avg_queue: 1.877
+04:33.308	ID:5	[RED] accepted, queue_size: 2
+04:33.310	ID:5	[RED] number_packets: 74
+04:33.805	ID:5	[RED] accepted, avg_queue: 1.526
+04:33.807	ID:5	[RED] accepted, queue_size: 1
+04:33.809	ID:5	[RED] number_packets: 75
+04:41.055	ID:5	[RED] accepted, avg_queue: 1.316
+04:41.057	ID:5	[RED] accepted, queue_size: 1
+04:41.059	ID:5	[RED] number_packets: 76
+04:44.181	ID:5	[RED] accepted, avg_queue: 1.189
+04:44.183	ID:5	[RED] accepted, queue_size: 1
+04:44.186	ID:5	[RED] number_packets: 77
+04:44.430	ID:5	[RED] accepted, avg_queue: 1.514
+04:44.432	ID:5	[RED] accepted, queue_size: 2
+04:44.434	ID:5	[RED] number_packets: 78
+04:49.624	ID:1	1.0: packet dropped: no queue buffer available
+04:49.627	ID:1	[MEMORY][DROP] queue_size: 12
+04:53.307	ID:5	[RED] accepted, avg_queue: 1.308
+04:53.309	ID:5	[RED] accepted, queue_size: 1
+04:53.311	ID:5	[RED] number_packets: 79
+04:53.556	ID:5	[RED] accepted, avg_queue: 1.585
+04:53.558	ID:5	[RED] accepted, queue_size: 2
+04:53.560	ID:5	[RED] number_packets: 80
+04:56.931	ID:5	[RED] accepted, avg_queue: 1.351
+04:56.933	ID:5	[RED] accepted, queue_size: 1
+04:56.936	ID:5	[RED] number_packets: 81
+04:57.180	ID:5	[RED] accepted, avg_queue: 1.611
+04:57.182	ID:5	[RED] accepted, queue_size: 2
+04:57.184	ID:5	[RED] number_packets: 82
+04:57.307	ID:5	[RED] accepted, avg_queue: 2.166
+04:57.309	ID:5	[RED] accepted, queue_size: 3
+04:57.311	ID:5	[RED] number_packets: 83
+04:59.305	ID:5	[RED] accepted, avg_queue: 1.700
+04:59.307	ID:5	[RED] accepted, queue_size: 1
+04:59.309	ID:5	[RED] number_packets: 84
+05:00.305	ID:5	[RED] accepted, avg_queue: 1.420
+05:00.307	ID:5	[RED] accepted, queue_size: 1
+05:00.309	ID:5	[RED] number_packets: 85
+05:00.553	ID:5	[RED] accepted, avg_queue: 1.652
+05:00.556	ID:5	[RED] accepted, queue_size: 2
+05:00.558	ID:5	[RED] number_packets: 86
+05:00.680	ID:5	[RED] accepted, avg_queue: 2.191
+05:00.682	ID:5	[RED] accepted, queue_size: 3
+05:00.684	ID:5	[RED] number_packets: 87
+05:01.807	ID:5	[RED] accepted, avg_queue: 1.715
+05:01.809	ID:5	[RED] accepted, queue_size: 1
+05:01.811	ID:5	[RED] number_packets: 88
+05:02.055	ID:5	[RED] accepted, avg_queue: 1.829
+05:02.057	ID:5	[RED] accepted, queue_size: 2
+05:02.059	ID:5	[RED] number_packets: 89
+05:02.750	ID:1	1.0: packet dropped: no queue buffer available
+05:02.752	ID:1	[MEMORY][DROP] queue_size: 10
+05:03.056	ID:5	[RED] accepted, avg_queue: 1.497
+05:03.058	ID:5	[RED] accepted, queue_size: 1
+05:03.060	ID:5	[RED] number_packets: 90
+05:03.307	ID:5	[RED] accepted, avg_queue: 1.698
+05:03.309	ID:5	[RED] accepted, queue_size: 2
+05:03.311	ID:5	[RED] number_packets: 91
+05:14.553	ID:5	[RED] accepted, avg_queue: 1.419
+05:14.556	ID:5	[RED] accepted, queue_size: 1
+05:14.558	ID:5	[RED] number_packets: 92
+05:14.805	ID:5	[RED] accepted, avg_queue: 1.651
+05:14.807	ID:5	[RED] accepted, queue_size: 2
+05:14.809	ID:5	[RED] number_packets: 93
+05:19.432	ID:5	[RED] accepted, avg_queue: 1.391
+05:19.434	ID:5	[RED] accepted, queue_size: 1
+05:19.436	ID:5	[RED] number_packets: 94
+05:19.681	ID:5	[RED] accepted, avg_queue: 1.635
+05:19.683	ID:5	[RED] accepted, queue_size: 2
+05:19.685	ID:5	[RED] number_packets: 95
+05:19.804	ID:5	[RED] accepted, avg_queue: 2.181
+05:19.807	ID:5	[RED] accepted, queue_size: 3
+05:19.809	ID:5	[RED] number_packets: 96
+05:19.931	ID:5	[RED] accepted, avg_queue: 2.908
+05:19.933	ID:5	[RED] accepted, queue_size: 4
+05:19.935	ID:5	[RED] number_packets: 97
+05:20.432	ID:5	[RED] droped, avg_queue: 3.745
+05:20.434	ID:5	[RED] droped, queue_size: 5
+05:27.306	ID:5	[RED] accepted, avg_queue: 2.647
+05:27.308	ID:5	[RED] accepted, queue_size: 1
+05:27.311	ID:5	[RED] number_packets: 98
+05:27.555	ID:5	[RED] accepted, avg_queue: 2.388
+05:27.557	ID:5	[RED] accepted, queue_size: 2
+05:27.559	ID:5	[RED] number_packets: 99
+05:27.681	ID:5	[RED] accepted, avg_queue: 2.633
+05:27.683	ID:5	[RED] accepted, queue_size: 3
+05:27.685	ID:5	[RED] number_packets: 100
+05:34.306	ID:5	[RED] accepted, avg_queue: 1.980
+05:34.308	ID:5	[RED] accepted, queue_size: 1
+05:34.311	ID:5	[RED] number_packets: 101
+05:34.554	ID:5	[RED] accepted, avg_queue: 1.988
+05:34.557	ID:5	[RED] accepted, queue_size: 2
+05:34.559	ID:5	[RED] number_packets: 102
+05:34.931	ID:5	[RED] accepted, avg_queue: 1.593
+05:34.933	ID:5	[RED] accepted, queue_size: 1
+05:34.936	ID:5	[RED] number_packets: 103
+05:35.180	ID:5	[RED] accepted, avg_queue: 1.756
+05:35.182	ID:5	[RED] accepted, queue_size: 2
+05:35.184	ID:5	[RED] number_packets: 104
+05:36.874	ID:1	1.0: packet dropped: no queue buffer available
+05:36.877	ID:1	[MEMORY][DROP] queue_size: 10
+05:44.057	ID:5	[RED] accepted, avg_queue: 1.453
+05:44.059	ID:5	[RED] accepted, queue_size: 1
+05:44.062	ID:5	[RED] number_packets: 105
+05:44.306	ID:5	[RED] accepted, avg_queue: 1.672
+05:44.308	ID:5	[RED] accepted, queue_size: 2
+05:44.310	ID:5	[RED] number_packets: 106
+05:44.430	ID:5	[RED] accepted, avg_queue: 2.203
+05:44.432	ID:5	[RED] accepted, queue_size: 3
+05:44.434	ID:5	[RED] number_packets: 107
+05:51.180	ID:5	[RED] accepted, avg_queue: 1.722
+05:51.182	ID:5	[RED] accepted, queue_size: 1
+05:51.184	ID:5	[RED] number_packets: 108
+05:51.431	ID:5	[RED] accepted, avg_queue: 1.833
+05:51.433	ID:5	[RED] accepted, queue_size: 2
+05:51.435	ID:5	[RED] number_packets: 109
+05:51.555	ID:5	[RED] accepted, avg_queue: 2.300
+05:51.557	ID:5	[RED] accepted, queue_size: 3
+05:51.560	ID:5	[RED] number_packets: 110
+05:52.181	ID:5	[RED] accepted, avg_queue: 1.780
+05:52.183	ID:5	[RED] accepted, queue_size: 1
+05:52.186	ID:5	[RED] number_packets: 111
+06:01.057	ID:5	[RED] accepted, avg_queue: 1.468
+06:01.059	ID:5	[RED] accepted, queue_size: 1
+06:01.062	ID:5	[RED] number_packets: 112
+06:01.306	ID:5	[RED] accepted, avg_queue: 1.681
+06:01.308	ID:5	[RED] accepted, queue_size: 2
+06:01.311	ID:5	[RED] number_packets: 113
+06:01.430	ID:5	[RED] accepted, avg_queue: 2.208
+06:01.432	ID:5	[RED] accepted, queue_size: 3
+06:01.435	ID:5	[RED] number_packets: 114
+06:01.805	ID:5	[RED] accepted, avg_queue: 2.525
+06:01.807	ID:5	[RED] accepted, queue_size: 3
+06:01.810	ID:5	[RED] number_packets: 115
+06:02.181	ID:5	[RED] accepted, avg_queue: 2.715
+06:02.183	ID:5	[RED] accepted, queue_size: 3
+06:02.186	ID:5	[RED] number_packets: 116
+06:02.307	ID:5	[RED] accepted, avg_queue: 3.229
+06:02.309	ID:5	[RED] accepted, queue_size: 4
+06:02.312	ID:5	[RED] number_packets: 117
+06:04.055	ID:5	[RED] accepted, avg_queue: 2.337
+06:04.057	ID:5	[RED] accepted, queue_size: 1
+06:04.059	ID:5	[RED] number_packets: 118
+06:04.306	ID:5	[RED] accepted, avg_queue: 2.202
+06:04.308	ID:5	[RED] accepted, queue_size: 2
+06:04.311	ID:5	[RED] number_packets: 119
+06:04.430	ID:5	[RED] accepted, avg_queue: 2.521
+06:04.432	ID:5	[RED] accepted, queue_size: 3
+06:04.435	ID:5	[RED] number_packets: 120
+06:04.556	ID:5	[RED] accepted, avg_queue: 3.113
+06:04.558	ID:5	[RED] accepted, queue_size: 4
+06:04.561	ID:5	[RED] number_packets: 121
+06:04.682	ID:5	[RED] droped, avg_queue: 3.868
+06:04.684	ID:5	[RED] droped, queue_size: 5
+06:08.254	ID:1	1.0: packet dropped: no queue buffer available
+06:08.256	ID:1	[MEMORY][DROP] queue_size: 16
+06:15.431	ID:5	[RED] accepted, avg_queue: 2.721
+06:15.433	ID:5	[RED] accepted, queue_size: 1
+06:15.436	ID:5	[RED] number_packets: 122
+06:22.181	ID:5	[RED] accepted, avg_queue: 2.32
+06:22.183	ID:5	[RED] accepted, queue_size: 1
+06:22.186	ID:5	[RED] number_packets: 123
+06:22.429	ID:5	[RED] accepted, avg_queue: 2.19
+06:22.431	ID:5	[RED] accepted, queue_size: 2
+06:22.434	ID:5	[RED] number_packets: 124
+06:22.556	ID:5	[RED] accepted, avg_queue: 2.412
+06:22.558	ID:5	[RED] accepted, queue_size: 3
+06:22.560	ID:5	[RED] number_packets: 125
+06:22.681	ID:5	[RED] droped, avg_queue: 3.47
+06:22.683	ID:5	[RED] droped, queue_size: 4
+06:29.431	ID:5	[RED] accepted, avg_queue: 2.228
+06:29.433	ID:5	[RED] accepted, queue_size: 1
+06:29.436	ID:5	[RED] number_packets: 126
+06:29.931	ID:5	[RED] accepted, avg_queue: 1.737
+06:29.933	ID:5	[RED] accepted, queue_size: 1
+06:29.935	ID:5	[RED] number_packets: 127
+06:32.930	ID:5	[RED] accepted, avg_queue: 1.442
+06:32.932	ID:5	[RED] accepted, queue_size: 1
+06:32.935	ID:5	[RED] number_packets: 128
+06:33.181	ID:5	[RED] accepted, avg_queue: 1.665
+06:33.183	ID:5	[RED] accepted, queue_size: 2
+06:33.186	ID:5	[RED] number_packets: 129
+06:34.998	ID:1	1.0: packet dropped: no queue buffer available
+06:35.001	ID:1	[MEMORY][DROP] queue_size: 13
+06:37.625	ID:1	1.0: packet dropped: no queue buffer available
+06:37.628	ID:1	[MEMORY][DROP] queue_size: 14
+06:38.056	ID:5	[RED] accepted, avg_queue: 1.399
+06:38.058	ID:5	[RED] accepted, queue_size: 1
+06:38.060	ID:5	[RED] number_packets: 130
+06:44.057	ID:5	[RED] accepted, avg_queue: 1.240
+06:44.059	ID:5	[RED] accepted, queue_size: 1
+06:44.062	ID:5	[RED] number_packets: 131
+06:44.306	ID:5	[RED] accepted, avg_queue: 1.544
+06:44.308	ID:5	[RED] accepted, queue_size: 2
+06:44.310	ID:5	[RED] number_packets: 132
+06:48.429	ID:5	[RED] accepted, avg_queue: 1.326
+06:48.432	ID:5	[RED] accepted, queue_size: 1
+06:48.434	ID:5	[RED] number_packets: 133
+06:48.680	ID:5	[RED] accepted, avg_queue: 1.596
+06:48.683	ID:5	[RED] accepted, queue_size: 2
+06:48.685	ID:5	[RED] number_packets: 134
+06:52.681	ID:5	[RED] accepted, avg_queue: 1.357
+06:52.683	ID:5	[RED] accepted, queue_size: 1
+06:52.686	ID:5	[RED] number_packets: 135
+06:55.805	ID:5	[RED] accepted, avg_queue: 1.214
+06:55.807	ID:5	[RED] accepted, queue_size: 1
+06:55.810	ID:5	[RED] number_packets: 136
+06:56.056	ID:5	[RED] accepted, avg_queue: 1.529
+06:56.058	ID:5	[RED] accepted, queue_size: 2
+06:56.061	ID:5	[RED] number_packets: 137
+06:59.803	ID:5	[RED] accepted, avg_queue: 1.317
+06:59.806	ID:5	[RED] accepted, queue_size: 1
+06:59.808	ID:5	[RED] number_packets: 138
+07:01.056	ID:5	[RED] accepted, avg_queue: 1.190
+07:01.058	ID:5	[RED] accepted, queue_size: 1
+07:01.061	ID:5	[RED] number_packets: 139
+07:08.305	ID:5	[RED] accepted, avg_queue: 1.114
+07:08.307	ID:5	[RED] accepted, queue_size: 1
+07:08.309	ID:5	[RED] number_packets: 140
+07:08.553	ID:5	[RED] accepted, avg_queue: 1.469
+07:08.556	ID:5	[RED] accepted, queue_size: 2
+07:08.558	ID:5	[RED] number_packets: 141
+07:12.056	ID:5	[RED] accepted, avg_queue: 1.281
+07:12.058	ID:5	[RED] accepted, queue_size: 1
+07:12.061	ID:5	[RED] number_packets: 142
+07:12.305	ID:5	[RED] accepted, avg_queue: 1.969
+07:12.307	ID:5	[RED] accepted, queue_size: 3
+07:12.310	ID:5	[RED] number_packets: 143
+07:14.250	ID:1	1.0: packet dropped: no queue buffer available
+07:14.252	ID:1	[MEMORY][DROP] queue_size: 15
+07:14.752	ID:1	1.0: packet dropped: no queue buffer available
+07:14.754	ID:1	[MEMORY][DROP] queue_size: 14
+07:16.431	ID:5	[RED] accepted, avg_queue: 1.581
+07:16.433	ID:5	[RED] accepted, queue_size: 1
+07:16.436	ID:5	[RED] number_packets: 144
+07:16.680	ID:5	[RED] accepted, avg_queue: 1.749
+07:16.682	ID:5	[RED] accepted, queue_size: 2
+07:16.685	ID:5	[RED] number_packets: 145
+07:16.805	ID:5	[RED] accepted, avg_queue: 2.249
+07:16.807	ID:5	[RED] accepted, queue_size: 3
+07:16.809	ID:5	[RED] number_packets: 146
+07:16.931	ID:5	[RED] accepted, avg_queue: 2.950
+07:16.933	ID:5	[RED] accepted, queue_size: 4
+07:16.936	ID:5	[RED] number_packets: 147
+07:17.057	ID:5	[RED] droped, avg_queue: 3.770
+07:17.059	ID:5	[RED] droped, queue_size: 5
+07:34.650	ID:4	#L 1 0
+07:34.650	ID:4	#L 5 1
+07:35.806	ID:5	[RED] accepted, avg_queue: 2.662
+07:35.808	ID:5	[RED] accepted, queue_size: 1
+07:35.811	ID:5	[RED] number_packets: 148
+07:35.931	ID:5	[RED] accepted, avg_queue: 2.397
+07:35.934	ID:5	[RED] accepted, queue_size: 2
+07:35.936	ID:5	[RED] number_packets: 149
+07:36.055	ID:5	[RED] accepted, avg_queue: 2.638
+07:36.057	ID:5	[RED] accepted, queue_size: 3
+07:36.060	ID:5	[RED] number_packets: 150
+07:36.183	ID:5	[RED] droped, avg_queue: 3.183
+07:36.185	ID:5	[RED] droped, queue_size: 4
+07:36.931	ID:5	[RED] accepted, avg_queue: 2.310
+07:36.933	ID:5	[RED] accepted, queue_size: 1
+07:36.935	ID:5	[RED] number_packets: 151
+07:40.682	ID:5	[RED] accepted, avg_queue: 1.786
+07:40.684	ID:5	[RED] accepted, queue_size: 1
+07:40.686	ID:5	[RED] number_packets: 152
+07:40.931	ID:5	[RED] accepted, avg_queue: 1.872
+07:40.933	ID:5	[RED] accepted, queue_size: 2
+07:40.936	ID:5	[RED] number_packets: 153
+07:41.055	ID:5	[RED] accepted, avg_queue: 2.323
+07:41.057	ID:5	[RED] accepted, queue_size: 3
+07:41.060	ID:5	[RED] number_packets: 154
+07:42.431	ID:5	[RED] accepted, avg_queue: 1.794
+07:42.433	ID:5	[RED] accepted, queue_size: 1
+07:42.436	ID:5	[RED] number_packets: 155
+07:43.376	ID:1	1.0: packet dropped: no queue buffer available
+07:43.378	ID:1	[MEMORY][DROP] queue_size: 13
+07:45.181	ID:5	[RED] accepted, avg_queue: 1.476
+07:45.183	ID:5	[RED] accepted, queue_size: 1
+07:45.185	ID:5	[RED] number_packets: 156
+07:49.306	ID:5	[RED] accepted, avg_queue: 2.86
+07:49.308	ID:5	[RED] accepted, queue_size: 3
+07:49.311	ID:5	[RED] number_packets: 157
+07:52.555	ID:5	[RED] accepted, avg_queue: 1.651
+07:52.557	ID:5	[RED] accepted, queue_size: 1
+07:52.559	ID:5	[RED] number_packets: 158
+07:53.432	ID:5	[RED] accepted, avg_queue: 1.391
+07:53.434	ID:5	[RED] accepted, queue_size: 1
+07:53.437	ID:5	[RED] number_packets: 159
+07:55.124	ID:1	1.0: packet dropped: no queue buffer available
+07:55.126	ID:1	[MEMORY][DROP] queue_size: 14
+07:58.931	ID:5	[RED] accepted, avg_queue: 1.235
+07:58.934	ID:5	[RED] accepted, queue_size: 1
+07:58.936	ID:5	[RED] number_packets: 160
+08:02.680	ID:5	[RED] accepted, avg_queue: 1.141
+08:02.682	ID:5	[RED] accepted, queue_size: 1
+08:02.684	ID:5	[RED] number_packets: 161
+08:02.931	ID:5	[RED] accepted, avg_queue: 1.484
+08:02.934	ID:5	[RED] accepted, queue_size: 2
+08:02.936	ID:5	[RED] number_packets: 162
+08:03.180	ID:5	[RED] accepted, avg_queue: 1.691
+08:03.182	ID:5	[RED] accepted, queue_size: 2
+08:03.185	ID:5	[RED] number_packets: 163
+08:24.305	ID:5	[RED] accepted, avg_queue: 1.414
+08:24.307	ID:5	[RED] accepted, queue_size: 1
+08:24.310	ID:5	[RED] number_packets: 164
+08:26.180	ID:5	[RED] accepted, avg_queue: 1.249
+08:26.182	ID:5	[RED] accepted, queue_size: 1
+08:26.184	ID:5	[RED] number_packets: 165
+08:26.431	ID:5	[RED] accepted, avg_queue: 1.549
+08:26.433	ID:5	[RED] accepted, queue_size: 2
+08:26.436	ID:5	[RED] number_packets: 166
+08:26.555	ID:5	[RED] accepted, avg_queue: 2.130
+08:26.557	ID:5	[RED] accepted, queue_size: 3
+08:26.559	ID:5	[RED] number_packets: 167
+08:30.001	ID:1	1.0: packet dropped: no queue buffer available
+08:30.003	ID:1	[MEMORY][DROP] queue_size: 13
+08:30.180	ID:5	[RED] accepted, avg_queue: 1.678
+08:30.182	ID:5	[RED] accepted, queue_size: 1
+08:30.185	ID:5	[RED] number_packets: 168
+08:30.431	ID:5	[RED] accepted, avg_queue: 1.807
+08:30.433	ID:5	[RED] accepted, queue_size: 2
+08:30.436	ID:5	[RED] number_packets: 169
+08:30.556	ID:5	[RED] accepted, avg_queue: 2.284
+08:30.558	ID:5	[RED] accepted, queue_size: 3
+08:30.560	ID:5	[RED] number_packets: 170
+08:30.680	ID:5	[RED] accepted, avg_queue: 2.970
+08:30.682	ID:5	[RED] accepted, queue_size: 4
+08:30.685	ID:5	[RED] number_packets: 171
+08:34.750	ID:1	1.0: packet dropped: no queue buffer available
+08:34.752	ID:1	[MEMORY][DROP] queue_size: 9
+08:37.305	ID:5	[RED] accepted, avg_queue: 2.182
+08:37.307	ID:5	[RED] accepted, queue_size: 1
+08:37.309	ID:5	[RED] number_packets: 172
+08:37.553	ID:5	[RED] accepted, avg_queue: 2.109
+08:37.556	ID:5	[RED] accepted, queue_size: 2
+08:37.558	ID:5	[RED] number_packets: 173
+08:37.680	ID:5	[RED] accepted, avg_queue: 2.466
+08:37.682	ID:5	[RED] accepted, queue_size: 3
+08:37.685	ID:5	[RED] number_packets: 174
+08:37.806	ID:5	[RED] accepted, avg_queue: 3.79
+08:37.808	ID:5	[RED] accepted, queue_size: 4
+08:37.811	ID:5	[RED] number_packets: 175
+08:37.932	ID:5	[RED] accepted, avg_queue: 3.848
+08:37.934	ID:5	[RED] accepted, queue_size: 5
+08:37.937	ID:5	[RED] number_packets: 176
+08:38.183	ID:5	[RED] droped, avg_queue: 4.709
+08:38.185	ID:5	[RED] droped, queue_size: 6
+08:38.932	ID:5	[RED] droped, avg_queue: 4.825
+08:38.934	ID:5	[RED] droped, queue_size: 5
+08:49.808	ID:5	[RED] accepted, avg_queue: 3.295
+08:49.810	ID:5	[RED] accepted, queue_size: 1
+08:49.813	ID:5	[RED] number_packets: 177
+08:50.055	ID:5	[RED] accepted, avg_queue: 2.777
+08:50.057	ID:5	[RED] accepted, queue_size: 2
+08:50.059	ID:5	[RED] number_packets: 178
+08:53.930	ID:5	[RED] accepted, avg_queue: 2.866
+08:53.932	ID:5	[RED] accepted, queue_size: 3
+08:53.935	ID:5	[RED] number_packets: 179
+08:54.681	ID:5	[RED] accepted, avg_queue: 2.520
+08:54.683	ID:5	[RED] accepted, queue_size: 2
+08:54.686	ID:5	[RED] number_packets: 180
+08:54.805	ID:5	[RED] accepted, avg_queue: 2.712
+08:54.807	ID:5	[RED] accepted, queue_size: 3
+08:54.810	ID:5	[RED] number_packets: 181
+08:54.934	ID:5	[RED] accepted, avg_queue: 3.227
+08:54.936	ID:5	[RED] accepted, queue_size: 4
+08:54.938	ID:5	[RED] number_packets: 182
+08:55.057	ID:5	[RED] accepted, avg_queue: 3.936
+08:55.060	ID:5	[RED] accepted, queue_size: 5
+08:55.062	ID:5	[RED] number_packets: 183
+08:55.181	ID:5	[RED] accepted, avg_queue: 4.762
+08:55.183	ID:5	[RED] accepted, queue_size: 6
+08:55.186	ID:5	[RED] number_packets: 184
+08:55.307	ID:5	[RED] accepted, avg_queue: 5.657
+08:55.309	ID:5	[RED] accepted, queue_size: 7
+08:55.312	ID:5	[RED] number_packets: 185
+08:55.433	ID:5	[RED] accepted, avg_queue: 6.594
+08:55.435	ID:5	[RED] accepted, queue_size: 8
+08:55.438	ID:5	[RED] number_packets: 186
+08:55.555	ID:5	[RED] droped, avg_queue: 7.557
+08:55.557	ID:5	[RED] droped, queue_size: 9
+08:58.682	ID:5	[RED] droped, avg_queue: 4.934
+08:58.684	ID:5	[RED] droped, queue_size: 1
+09:04.555	ID:2	#L 5 0
+09:04.555	ID:2	#L 1 1
+09:06.750	ID:1	1.0: packet dropped: no queue buffer available
+09:06.752	ID:1	[MEMORY][DROP] queue_size: 9
+09:11.682	ID:5	[RED] droped, avg_queue: 3.760
+09:11.684	ID:5	[RED] droped, queue_size: 2
+09:13.670	ID:2	#L 1 0
+09:13.671	ID:2	#L 5 1
+09:17.250	ID:1	1.0: packet dropped: no queue buffer available
+09:17.252	ID:1	[MEMORY][DROP] queue_size: 10
+09:19.431	ID:5	[RED] accepted, avg_queue: 3.456
+09:19.433	ID:5	[RED] accepted, queue_size: 3
+09:19.436	ID:5	[RED] number_packets: 187
+09:19.682	ID:5	[RED] accepted, avg_queue: 3.674
+09:19.685	ID:5	[RED] accepted, queue_size: 4
+09:19.687	ID:5	[RED] number_packets: 188
+09:19.806	ID:5	[RED] accepted, avg_queue: 4.204
+09:19.809	ID:5	[RED] accepted, queue_size: 5
+09:19.811	ID:5	[RED] number_packets: 189
+09:20.306	ID:5	[RED] droped, avg_queue: 4.123
+09:20.308	ID:5	[RED] droped, queue_size: 4
+09:20.932	ID:5	[RED] droped, avg_queue: 3.274
+09:20.934	ID:5	[RED] droped, queue_size: 2
+09:24.125	ID:1	1.0: packet dropped: no queue buffer available
+09:24.127	ID:1	[MEMORY][DROP] queue_size: 13
+09:26.555	ID:5	[RED] accepted, avg_queue: 2.764
+09:26.557	ID:5	[RED] accepted, queue_size: 2
+09:26.560	ID:5	[RED] number_packets: 190
+09:26.681	ID:5	[RED] accepted, avg_queue: 2.858
+09:26.683	ID:5	[RED] accepted, queue_size: 3
+09:26.686	ID:5	[RED] number_packets: 191
+09:27.682	ID:5	[RED] accepted, avg_queue: 2.115
+09:27.684	ID:5	[RED] accepted, queue_size: 1
+09:27.687	ID:5	[RED] number_packets: 192
+09:27.931	ID:5	[RED] accepted, avg_queue: 2.69
+09:27.933	ID:5	[RED] accepted, queue_size: 2
+09:27.936	ID:5	[RED] number_packets: 193
+09:28.055	ID:5	[RED] accepted, avg_queue: 2.441
+09:28.057	ID:5	[RED] accepted, queue_size: 3
+09:28.060	ID:5	[RED] number_packets: 194
+09:31.500	ID:1	1.0: packet dropped: no queue buffer available
+09:31.502	ID:1	[MEMORY][DROP] queue_size: 16
+09:33.680	ID:5	[RED] accepted, avg_queue: 1.865
+09:33.682	ID:5	[RED] accepted, queue_size: 1
+09:33.685	ID:5	[RED] number_packets: 195
+09:33.931	ID:5	[RED] accepted, avg_queue: 1.919
+09:33.933	ID:5	[RED] accepted, queue_size: 2
+09:33.936	ID:5	[RED] number_packets: 196
+09:34.181	ID:5	[RED] accepted, avg_queue: 2.351
+09:34.183	ID:5	[RED] accepted, queue_size: 3
+09:34.186	ID:5	[RED] number_packets: 197
+09:34.431	ID:5	[RED] accepted, avg_queue: 2.611
+09:34.433	ID:5	[RED] accepted, queue_size: 3
+09:34.436	ID:5	[RED] number_packets: 198
+09:34.557	ID:5	[RED] accepted, avg_queue: 3.166
+09:34.559	ID:5	[RED] accepted, queue_size: 4
+09:34.562	ID:5	[RED] number_packets: 199
+09:34.683	ID:5	[RED] accepted, avg_queue: 3.900
+09:34.685	ID:5	[RED] accepted, queue_size: 5
+09:34.688	ID:5	[RED] number_packets: 200
+09:39.056	ID:5	[RED] accepted, avg_queue: 2.740
+09:39.058	ID:5	[RED] accepted, queue_size: 1
+09:39.061	ID:5	[RED] number_packets: 201
+09:39.305	ID:5	[RED] accepted, avg_queue: 2.444
+09:39.307	ID:5	[RED] accepted, queue_size: 2
+09:39.310	ID:5	[RED] number_packets: 202
+09:39.432	ID:5	[RED] accepted, avg_queue: 2.666
+09:39.434	ID:5	[RED] accepted, queue_size: 3
+09:39.437	ID:5	[RED] number_packets: 203
+09:39.558	ID:5	[RED] droped, avg_queue: 3.200
+09:39.560	ID:5	[RED] droped, queue_size: 4
+09:39.808	ID:5	[RED] droped, avg_queue: 3.920
+09:39.810	ID:5	[RED] droped, queue_size: 5
+09:40.875	ID:1	1.0: packet dropped: no queue buffer available
+09:40.877	ID:1	[MEMORY][DROP] queue_size: 13
+09:45.932	ID:5	[RED] accepted, avg_queue: 2.752
+09:45.934	ID:5	[RED] accepted, queue_size: 1
+09:45.936	ID:5	[RED] number_packets: 204
+09:46.181	ID:5	[RED] accepted, avg_queue: 2.451
+09:46.183	ID:5	[RED] accepted, queue_size: 2
+09:46.185	ID:5	[RED] number_packets: 205
+09:46.305	ID:5	[RED] accepted, avg_queue: 2.671
+09:46.307	ID:5	[RED] accepted, queue_size: 3
+09:46.310	ID:5	[RED] number_packets: 206
+09:47.429	ID:5	[RED] accepted, avg_queue: 2.2
+09:47.432	ID:5	[RED] accepted, queue_size: 1
+09:47.434	ID:5	[RED] number_packets: 207
+09:47.792	ID:3	#L 1 0
+09:47.793	ID:3	#L 5 1
+09:49.056	ID:5	[RED] accepted, avg_queue: 1.601
+09:49.058	ID:5	[RED] accepted, queue_size: 1
+09:49.060	ID:5	[RED] number_packets: 208
+09:49.305	ID:5	[RED] accepted, avg_queue: 1.761
+09:49.307	ID:5	[RED] accepted, queue_size: 2
+09:49.309	ID:5	[RED] number_packets: 209
+09:49.431	ID:5	[RED] accepted, avg_queue: 2.257
+09:49.433	ID:5	[RED] accepted, queue_size: 3
+09:49.436	ID:5	[RED] number_packets: 210
+09:50.556	ID:5	[RED] accepted, avg_queue: 2.954
+09:50.558	ID:5	[RED] accepted, queue_size: 4
+09:50.561	ID:5	[RED] number_packets: 211
+09:54.432	ID:5	[RED] accepted, avg_queue: 2.172
+09:54.434	ID:5	[RED] accepted, queue_size: 1
+09:54.436	ID:5	[RED] number_packets: 212
+09:54.555	ID:5	[RED] accepted, avg_queue: 2.103
+09:54.557	ID:5	[RED] accepted, queue_size: 2
+09:54.559	ID:5	[RED] number_packets: 213
+09:54.806	ID:5	[RED] accepted, avg_queue: 2.462
+09:54.808	ID:5	[RED] accepted, queue_size: 3
+09:54.811	ID:5	[RED] number_packets: 214
+09:54.932	ID:5	[RED] accepted, avg_queue: 3.77
+09:54.934	ID:5	[RED] accepted, queue_size: 4
+09:54.936	ID:5	[RED] number_packets: 215
+09:55.058	ID:5	[RED] accepted, avg_queue: 3.846
+09:55.060	ID:5	[RED] accepted, queue_size: 5
+09:55.062	ID:5	[RED] number_packets: 216
+09:57.305	ID:5	[RED] accepted, avg_queue: 2.708
+09:57.307	ID:5	[RED] accepted, queue_size: 1
+09:57.309	ID:5	[RED] number_packets: 217
+09:59.806	ID:5	[RED] accepted, avg_queue: 2.25
+09:59.808	ID:5	[RED] accepted, queue_size: 1
+09:59.811	ID:5	[RED] number_packets: 218
+10:00.055	ID:5	[RED] accepted, avg_queue: 2.15
+10:00.057	ID:5	[RED] accepted, queue_size: 2
+10:00.059	ID:5	[RED] number_packets: 219
+10:00.181	ID:5	[RED] accepted, avg_queue: 2.409
+10:00.183	ID:5	[RED] accepted, queue_size: 3
+10:00.186	ID:5	[RED] number_packets: 220
+10:00.307	ID:5	[RED] droped, avg_queue: 3.45
+10:00.309	ID:5	[RED] droped, queue_size: 4
+10:04.307	ID:5	[RED] accepted, avg_queue: 2.227
+10:04.309	ID:5	[RED] accepted, queue_size: 1
+10:04.311	ID:5	[RED] number_packets: 221
+10:05.805	ID:5	[RED] accepted, avg_queue: 1.736
+10:05.807	ID:5	[RED] accepted, queue_size: 1
+10:05.810	ID:5	[RED] number_packets: 222
+10:06.054	ID:5	[RED] accepted, avg_queue: 1.842
+10:06.057	ID:5	[RED] accepted, queue_size: 2
+10:06.059	ID:5	[RED] number_packets: 223
+10:07.056	ID:5	[RED] accepted, avg_queue: 1.505
+10:07.058	ID:5	[RED] accepted, queue_size: 1
+10:07.060	ID:5	[RED] number_packets: 224
+10:07.806	ID:5	[RED] accepted, avg_queue: 2.103
+10:07.808	ID:5	[RED] accepted, queue_size: 3
+10:07.811	ID:5	[RED] number_packets: 225
+10:07.931	ID:5	[RED] accepted, avg_queue: 2.862
+10:07.933	ID:5	[RED] accepted, queue_size: 4
+10:07.935	ID:5	[RED] number_packets: 226
+10:08.057	ID:5	[RED] accepted, avg_queue: 3.717
+10:08.059	ID:5	[RED] accepted, queue_size: 5
+10:08.062	ID:5	[RED] number_packets: 227
+10:09.183	ID:5	[RED] droped, avg_queue: 4.630
+10:09.185	ID:5	[RED] droped, queue_size: 6
+10:14.058	ID:5	[RED] accepted, avg_queue: 3.178
+10:14.060	ID:5	[RED] accepted, queue_size: 1
+10:14.063	ID:5	[RED] number_packets: 228
